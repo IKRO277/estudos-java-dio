@@ -1,5 +1,5 @@
 public class tiposVariaveis {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         
         double salarioMinimo = 2500;
 
