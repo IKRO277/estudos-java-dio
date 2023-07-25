@@ -6,7 +6,6 @@ public static void main(String[] args) {
             Double valorDoce = valorAleatorio();
             if(valorDoce > mesada)
                 valorDoce = mesada;
-
             System.out.println("Doce do valor: " + valorDoce + " Adicionado no carrinho");
             mesada = mesada - valorDoce;
         }
@@ -19,6 +18,6 @@ public static void main(String[] args) {
         */
    }
    private static double valorAleatorio() {
-	return ThreadLocalRandom.current().nextDouble(2, 8);
+    return ThreadLocalRandom.current().nextDouble(2, 8);
    }
 }
