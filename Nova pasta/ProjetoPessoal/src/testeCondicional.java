@@ -1,8 +1,30 @@
 public class testeCondicional {
     public static void main(String[] args) {
         
-    int nota = 10;
+    String sigla = "P";
 
+    switch (sigla) {
+        case "P":{
+              System.out.println("PEQUENO");
+            break;
+        }
+        case "M":{
+             System.out.println("MÉDIO");
+            break;
+        }
+        case "G":{
+             System.out.println("GRANDE");
+            break;
+        }
+        default:
+            System.out.println("INDEFINIDO");
+            break;
+    }
+    
+
+    /* 
+     * int nota = 10;
+        //
     if(nota >= 7) {
         System.out.println("Aprovado");
     }
@@ -18,5 +40,7 @@ public class testeCondicional {
     else
         System.out.println("Por favor insira a nota novamente");
     
+    }
+    */
     }
 }
