@@ -1,7 +1,7 @@
 public class testeCondicional {
     public static void main(String[] args) {
         
-    String sigla = "P";
+    String sigla = "M";
 
     switch (sigla) {
         case "P":{
@@ -23,6 +23,7 @@ public class testeCondicional {
     
 
     /* 
+    <<Mais performática em questão de sintaxe>>
      * int nota = 10;
         //
     if(nota >= 7) {
