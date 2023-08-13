@@ -85,7 +85,7 @@ public class ProcessoSeletivo {
             System.out.println("Aguardando o resultado dos demais candidatos");
         }
     }
-     }
+     
        static boolean atender(){
         return new Random().nextInt(3)==1;
     }
